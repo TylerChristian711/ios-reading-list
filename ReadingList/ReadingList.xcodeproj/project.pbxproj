@@ -16,6 +16,7 @@
 		E3398566237B588100BA8CEA /* BookController .swift in Sources */ = {isa = PBXBuildFile; fileRef = E3398565237B588100BA8CEA /* BookController .swift */; };
 		E3398568237BAFD300BA8CEA /* ReadingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3398567237BAFD300BA8CEA /* ReadingListTableViewController.swift */; };
 		E339856A237BAFF300BA8CEA /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3398569237BAFF300BA8CEA /* BookTableViewCell.swift */; };
+		E339856C237BB61800BA8CEA /* BookDetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E339856B237BB61800BA8CEA /* BookDetialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E3398565237B588100BA8CEA /* BookController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookController .swift"; sourceTree = "<group>"; };
 		E3398567237BAFD300BA8CEA /* ReadingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListTableViewController.swift; sourceTree = "<group>"; };
 		E3398569237BAFF300BA8CEA /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		E339856B237BB61800BA8CEA /* BookDetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E339854F237B551300BA8CEA /* AppDelegate.swift */,
 				E3398551237B551300BA8CEA /* SceneDelegate.swift */,
 				E3398555237B551300BA8CEA /* Main.storyboard */,
+				E339856B237BB61800BA8CEA /* BookDetialViewController.swift */,
 				E3398567237BAFD300BA8CEA /* ReadingListTableViewController.swift */,
 				E3398569237BAFF300BA8CEA /* BookTableViewCell.swift */,
 				E3398558237B551300BA8CEA /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				E3398564237B568D00BA8CEA /* Book.swift in Sources */,
 				E3398568237BAFD300BA8CEA /* ReadingListTableViewController.swift in Sources */,
 				E3398550237B551300BA8CEA /* AppDelegate.swift in Sources */,
+				E339856C237BB61800BA8CEA /* BookDetialViewController.swift in Sources */,
 				E3398552237B551300BA8CEA /* SceneDelegate.swift in Sources */,
 				E339856A237BAFF300BA8CEA /* BookTableViewCell.swift in Sources */,
 				E3398566237B588100BA8CEA /* BookController .swift in Sources */,

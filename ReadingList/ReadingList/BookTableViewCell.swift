@@ -10,6 +10,10 @@ import UIKit
 
 class BookTableViewCell: UITableViewCell {
 
+    @IBAction func btnCheck(_ sender: Any) {
+    }
+    @IBOutlet weak var check: UIButton!
+    @IBOutlet weak var titleLable: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
