@@ -7,14 +7,32 @@
 //
 
 import Foundation
+
+var bookController = BookController()
+
+
 struct Book: Equatable, Codable {
-    let title: String
-    let reasonToRead: String
-    let hasBeenRead: Bool
+    var title: String
+    var reasonToRead: String
+    var hasBeenRead: Bool
     
     init(title: String, reasonToRead: String, hasBeenRead: Bool = false) {
         self.title = title
         self.reasonToRead = reasonToRead
         self.hasBeenRead = hasBeenRead
+    }
+    
+    mutating func updateHasBeenRead() {
+        hasBeenRead = !hasBeenRead
+        bookController.saveToPersistentStore()
+    }
+    
+    mutating func updateReasonOrTitle(newTitle: String = "", reason: String = "") {
+        if !newTitle.isEmpty {
+            title = newTitle
+        }
+        if !reason.isEmpty {
+            reasonToRead = reason
+        }
     }
 }
